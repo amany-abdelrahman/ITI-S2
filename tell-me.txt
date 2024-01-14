@@ -1,0 +1,11 @@
+To delete a remote branch
+git push origin :branch_name
+
+To delete a local branch
+git branch -d branch_name
+
+Delete the local tag v1.7
+git tag -d v1.7
+
+Delete the remote tag v1.7
+git push --delete origin v1.7
